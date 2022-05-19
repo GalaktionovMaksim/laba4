@@ -61,9 +61,13 @@
   
 }
 
-ol{
-  list-style-image: url(/laba3/img/);
-
+.list_with_imgs{
+  list-style-image: url(/img/faq_list5_2.png);
+  margin:20px;
+  padding:0;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 }
 
 li a {
