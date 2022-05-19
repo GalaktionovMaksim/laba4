@@ -152,3 +152,19 @@ h1{
   
   border: solid lightgray; 
 }
+
+.mount1{
+  opacity: 0.5;
+  -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+  -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+  -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+  transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+.mount1:hover {
+  filter: alpha (Opacity=100);
+  opacity: 1;
+}
+.mount2:hover{
+  transform: scale(-1, 1);
+}
+.mount3{}
