@@ -152,19 +152,60 @@ h1{
   
   border: solid lightgray; 
 }
-
+.images{
+  background-color:#3b79ff;
+  margin: 10px 20px;
+  padding: 10px;
+  border: solid lightgray; 
+}
 .mount1{
   opacity: 0.5;
   -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
   -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
   -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
   transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+  width: 500px;
 }
 .mount1:hover {
   filter: alpha (Opacity=100);
   opacity: 1;
 }
+.mount2{
+  width: 500px;  
+}
 .mount2:hover{
   transform: scale(-1, 1);
+  
 }
-.mount3{}
+a.rollover {
+  width: 500px;
+  
+  background: url(/img/Без\ названия.jpg); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 250px; /* Ширина рисунка */
+  height: 200px; /*  Высота рисунка */
+ }
+ a.rollover:hover {
+  width: 250px;
+  height: 200px;
+  background: url(/img/gigachad-1.jpg); /* Путь к файлу с заменяемым рисунком  */
+ }
+
+.irgups{
+  position:relative;
+  overflow:hidden;
+  border:solid lightgray;
+  width: 560px;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.videotolearn{
+  border:solid lightgray;
+  width: 1000px;
+  height: 315px;
+  text-align: center;
+  margin: 0 auto;
+}
+
