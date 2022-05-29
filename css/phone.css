@@ -3,8 +3,17 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffe23b;
-    
+    background-color: #ffe23b; 
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none; 
+  }
+  li a:hover {
+    background-color: #f5d000;
   }
 .text_variations{
     background-color:#ffe23b;

@@ -4,7 +4,16 @@
     padding: 0;
     overflow: hidden;
     background-color: #3bff9d;
-    
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none; 
+  }
+  li a:hover {
+    background-color: #00c462;
   }
 .text_variations{
     background-color:#3bff9d;
