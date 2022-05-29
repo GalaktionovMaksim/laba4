@@ -67,6 +67,7 @@
   padding:0;
   display: flex;
   justify-content: space-between;
+  animation: 5s show ease;
 }
 
 li a {
@@ -106,6 +107,7 @@ h1{
   margin: 10px 20px;
   padding: 10px;
   border: solid lightgray;
+  animation: 2s show ease;
 }
 
 .lists{
@@ -114,6 +116,7 @@ h1{
   padding: 10px;
   border: solid lightgray;
   color:white;
+  animation: 2s show ease;
   
 }
 
@@ -122,6 +125,7 @@ h1{
   margin: 10px 20px;
   padding: 10px;
   border: solid lightgray;
+  animation: 2s show ease;
 }
 
 .forms{
@@ -129,6 +133,7 @@ h1{
   margin: 10px 20px;
   padding: 10px;
   border: solid lightgray; 
+  animation: 2s show ease;
 }
 .FormInArticle{
   background-color:aquamarine; 
@@ -150,6 +155,9 @@ h1{
   margin: 10px 20px;
   padding: 10px;
   border: solid lightgray; 
+  display: flex;
+  justify-content: space-between, center;
+  animation: 2s show ease;
 }
 
 .maps{
@@ -157,6 +165,7 @@ h1{
   margin: 10px 20px;
   padding: 10px;
   border: solid lightgray; 
+  animation: 2s show ease;
 }
 
 .imgs{
@@ -165,7 +174,8 @@ h1{
   padding: 10px;
   display: flex;
   justify-content: center;
-  border: solid lightgray; 
+  border: solid lightgray;
+  animation: 2s show ease; 
 }
 
 .images{
@@ -177,6 +187,7 @@ h1{
   justify-content: space-between;
   justify-content: center;
   align-items:flex-start;
+  animation: 2s show ease;
 }
 
 .mount1{
@@ -231,7 +242,6 @@ a.rollover {
   width: 1000px;
   height: 315px;
   display: flex;
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -244,7 +254,7 @@ a.rollover {
   justify-content: center;
   align-items:center; 
   margin: 0 auto;
-  
+  animation: 2s show ease;
 }
 .ButtonInArticle{
   border: solid lightgray;
@@ -252,4 +262,20 @@ a.rollover {
   width: 100px;
   height: 50px;
   color:brown;
+  border-radius:20px;
+}
+
+.ButtonInArticle:hover{
+    background-color: #003dc0;
+}
+.ButtonInArticleVideo{
+    border: solid lightgray;
+    width: 250px;
+    height: 70px;
+    display: flex;
+}
+
+@keyframes show {
+  from { opacity: 0.1; }
+  to { opacity: 1; }
 }
