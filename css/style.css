@@ -126,6 +126,10 @@ h1{
   padding: 10px;
   border: solid lightgray;
   animation: 2s show ease;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  overflow-x:auto;
 }
 
 .forms{
@@ -230,11 +234,12 @@ a.rollover {
 .irgups{
   position:relative;
   overflow:hidden;
-  border:solid lightgray;
-  width: 560px;
   height: 400px;
+  display: flex;
   text-align: center;
+  justify-content: center;
   margin: 0 auto;
+  width: 100%;
 }
 
 .videotolearn{

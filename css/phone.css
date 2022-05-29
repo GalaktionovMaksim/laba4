@@ -1,0 +1,111 @@
+.header__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffe23b;
+    
+  }
+.text_variations{
+    background-color:#ffe23b;
+    top: 20px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid lightgray;
+    animation: 2s show ease;
+}
+.lists{
+    background-color:#ffe23b;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid lightgray;
+    color:white;
+    animation: 2s show ease;  
+}
+.images{
+    background-color:#ffe23b;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid lightgray; 
+    display: flex;
+    flex-flow: column;
+    animation: 2s show ease;
+}
+.button{
+    background-color: #ffe23b;
+    border: solid lightgray;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    margin: 0 auto;
+    animation: 2s show ease;
+  }
+.tables{
+    background-color:#ffe23b;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: solid lightgray;
+    animation: 2s show ease;
+    overflow-x:auto;
+}
+
+table {             /*ЧЗХ*/
+    display: flex;
+    flex-direction: row;
+  
+}
+tr {
+    display: flex;
+    flex-direction: row;
+  
+}
+td {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.forms{
+    background-color:#ffe23b;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid lightgray; 
+    animation: 2s show ease;
+}
+.videos{
+    background-color:#ffe23b;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid lightgray; 
+    display: flex;
+    justify-content: space-between, center;
+    animation: 2s show ease;
+}
+.maps{
+    background-color:#ffe23b;
+    margin: 10px 20px;
+    padding: 10px;
+    border: solid lightgray; 
+    animation: 2s show ease;
+}
+.irgups{
+    position:relative;
+    overflow:hidden;
+    border:solid lightgray;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.imgs{
+    background-color:#ffe23b;
+    margin: 10px 20px 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: solid lightgray;
+    animation: 2s show ease; 
+}
