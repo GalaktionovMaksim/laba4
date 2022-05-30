@@ -1,17 +1,17 @@
+let popup = document.getElementById('mypopup'),
+        popupToggle = document.getElementById('myBtn'),
+        popupClose = document.querySelector('.close');
+        
+        popupToggle.onclick = function(){
+            popup.style.display="block";
+        }
 
-var dialog = document.querySelector('dialog');
-document.querySelector('#show').onclick = function() {
-  dialog.show();
-};
-document.querySelector('#close').onclick = function() {
-  dialog.close();
-};
+        popupClose.onclick = function(){
+            popup.style.display = "none";
+        }
 
-
-var dialog = document.querySelector('dialog');
-document.querySelector('#show').onclick = function() {
-  dialog.show();
-};
-document.querySelector('#close').onclick = function() {
-  dialog.close();
-};
+        window.onclick = function(e){
+            if(e.target == popup) {
+                popup.style.display ="none";
+            }
+        }

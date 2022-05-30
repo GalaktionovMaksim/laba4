@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="laba7.js">
     <link rel="stylereset" href="/css/reset.css">
     <link rel="stylesheet" media="screen and (min-width: 1366px)" href="/css/style.css">
     <link rel="stylesheet" href="/fontawesome-free-6.1.1-web">
@@ -41,14 +42,6 @@
         <h3 style="text-align:center"><abbr title="HyperText Markup Language">HTML</abbr></h6>
         <h3 style="border:dotted yellow;background-color:#003dc0; color:white"> a<sup>m</sup> * a<sup>n</sup> = a<sup>m + n</sup> </h3>
     </article>
-
-        
-    <dialog>
-      <p>Это окно, которое сделано на html5 и javascript</p>
-      <button id="close">Закрыть</button>
-    </dialog>
-    <button id="show">Открыть всплывающее окно!</button>
-
     
     <article class="lists">
         <h1 style="font-size:125%;font-family:Arial;color:white;">There are two types of lists:</h1>
@@ -238,11 +231,24 @@
     </article>
     
 
-    <article class="videos">
-        <h1 style="font-size:125%;font-family:Arial;color:white;">Video:</h1>
-        <button class="ButtonInArticleVideo">yandex</button>
-        <iframe class="videotolearn" src="https://www.youtube.com/embed/TdqQqyc7pfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-    </article>
+    
+    <button id="myBtn">Watch video</button>
+    <div id="mypopup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2>Frontend for free:</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="popup-body">
+                <iframe class="videotolearn" src="https://www.youtube.com/embed/TdqQqyc7pfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="popup-footer">
+                <h3>Thank you for watching!</h3>
+            </div>
+        </div>
+    </div>
+
+   
     
 
     <article class="maps">
