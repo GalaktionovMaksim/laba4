@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="laba7.js">
+    <link rel="stylesheet" href="/laba7.js">
     <link rel="stylereset" href="/css/reset.css">
     <link rel="stylesheet" media="screen and (min-width: 1366px)" href="/css/style.css">
     <link rel="stylesheet" href="/fontawesome-free-6.1.1-web">
@@ -59,13 +59,20 @@
 
 
     <article class="images">
-        <img class="mount1" src="/img/superstition-mountains-1380173.jpg">
-        <img class="mount2"src="/img/mountains-1381992.jpg">
-        <p><a href="#" style="padding: 0px;margin: 0px;"class="rollover"> </a></p>
+        <div class="slider">
+            <div class="slider-line">
+                <img class="mount1" src="/img/superstition-mountains-1380173.jpg">
+                <img class="mount2"src="/img/mountains-1381992.jpg">
+                <img class="mount3" src="/img/swiss-mountains-1362975.jpg">
+            </div>
+        </div>
+        <button class="slider-prev">PREV</button>
+        <button class="slider-next">NEXT</button>
     </article>
 
 
     <article class="button">
+        <button id="button">change color</button>
         <a href="https://yandex.ru/" target="_blank"><button class="ButtonInArticle">yandex</button></a>
     </article>
 
@@ -247,7 +254,7 @@
             </div>
         </div>
     </div>
-
+    <script src="/laba7.js"></script>
    
     
 

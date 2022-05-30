@@ -217,6 +217,10 @@ h1{
 .mount2:hover{
   transform: scale(-1, 1);
 }
+.mount3{
+  width: 500px;  
+  height: 500px;
+}
 
 a.rollover {
   background: url(/img/pexels-eberhard-grossgasteiger-572897.jpg); /* Путь к файлу с исходным рисунком  */
@@ -343,4 +347,20 @@ a.rollover {
     top: 0;
     opacity: 1;
   }
+}
+
+.slider{
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.slider-line{
+  height: 500px;
+  width: 1500px;
+  background: orangered;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
 }
