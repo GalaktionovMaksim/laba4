@@ -255,7 +255,7 @@ a.rollover {
 }
 
 .button{
-  background-color: #3b79ff;
+  background-color: rgb(150, 70, 200);
   border: solid lightgray;
   width: 400px;
   height: 400px;
@@ -364,3 +364,7 @@ a.rollover {
   left: 0;
   transition: all ease 1s;
 }
+.changecolor{
+
+}
+input:focus{outline: none;}

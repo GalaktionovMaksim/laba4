@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="/fontawesome-free-6.1.1-web">
     <link rel="stylesheet" media="screen and (max-width: 767px)" href="/css/phone.css">
     <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width:1365px)" href="/css/laptop.css">
+    <link rel="qr" href="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.3/qrcode.min.js">
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./qrcode.js"></script>
     <title>mypage</title>
         <style>
         table, th, td {
@@ -72,7 +75,7 @@
 
 
     <article class="button">
-        <button id="button">change color</button>
+        <button id="button" class="changecolor" onclick="changeColor();">change color</button>
         <a href="https://yandex.ru/" target="_blank"><button class="ButtonInArticle">yandex</button></a>
     </article>
 
@@ -231,7 +234,7 @@
             <fieldset>
                 <legend>Azino777</legend>
                 <label>Паспортные данные:<input class="InputForm" type="text" required placeholder="Серия, номер"></label>
-                <label>Номер карты:<input class="InputForm" type="number" required placeholder="1234567890"></label>
+                <label>Номер карты:<input type="text" name="tel"  placeholder="Номер телефона" required max="13" id="tel"></label>
                 <button class="ButtonInArticle"type="submit">Отправить</button>
             </fieldset>
         </form><br>
@@ -270,6 +273,8 @@
         <a href="https://yandex.ru/" target="_blank"><img src="img/yandex_logo.png" style="width:120px;height:50px;"></a>
         <a href="https://www.irgups.ru/" target="_blank"><img src="img/Irgups_logo.png" style="width:120px;height:50px;"></a><br>
     </article>
-   
+ 
+    <div id="qr"></div>
+    
 </body>
 </html>

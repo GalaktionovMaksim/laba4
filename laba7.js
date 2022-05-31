@@ -33,9 +33,32 @@ document.querySelector('.slider-prev').addEventListener('click',function(){
     }
     sliderLine.style.left = -offset + 'px';
 });
-var color = 'green';
-document.querySelector('button').onclick = function(){
-    console.log(this)  // теперь this это кнопка
-    this.style.background = "red";
-}
+
+
+function changeColor() {
+    document.querySelectorAll(".button").forEach(v => v.style.backgroundColor = "Black");
+    }
+              
+    let inp = document.querySelector('#tel');
+
+
+let text = 'Галактионов Максим';
+
+let typeNumber = 3; 
+let errorLevel = 'L'; 
+let qrDiv = document.getElementById('qr');
+
+let qr1 = qrcode(typeNumber, errorLevel);
+
+qr1.addData(text);
+qr1.make();
+qrDiv.innerHTML += `my text:<br> '${text}'<br>`;
+//qrDiv.innerHTML += qr1.createImgTag(8,10);
+qrDiv.innerHTML += qr1.createSvgTag(8,10);
+qrDiv.innerHTML += qr1.createTableTag(3,10) + '<br>';
+text = qrcode.stringToBytes(text);
+qrDiv.innerHTML += text.join(' ')+ '<br>';
+qrDiv.innerHTML += String.fromCharCode( ...text);
+
+
 
